@@ -36,3 +36,10 @@ console.log(accountBalance);  // 2100
 
 accountBalance /= 2;
 console.log(accountBalance);  // 1050
+
+// Task 4: String Data Type //
+let customerName = "Avery Johnson";
+
+let welcomeMessage = "Welcome back " + customerName + ", Covenant Incoming!";
+
+console.log(welcomeMessage);  // Welcome back Avery Johnson, Covenant Incoming!
