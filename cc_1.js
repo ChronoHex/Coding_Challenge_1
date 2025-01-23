@@ -43,3 +43,13 @@ let customerName = "Avery Johnson";
 let welcomeMessage = "Welcome back " + customerName + ", Covenant Incoming!";
 
 console.log(welcomeMessage);  // Welcome back Avery Johnson, Covenant Incoming!
+
+// Task 5: Boolean Data Type //
+let isLoggedIn =true
+let hasAccess = isLoggedIn && true;
+
+if (hasAccess) {
+    console.log("Access has been granted.");
+} else {
+    console.log("Access has been denied.");
+}
